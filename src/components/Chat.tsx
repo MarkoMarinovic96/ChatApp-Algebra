@@ -22,7 +22,7 @@ const Chat: React.FC = () => {
 
   return (
     <>
-      <main className='flex flex-col p-[10px]'>
+      <main className='flex flex-col p-[10px] min-h-[500px]'>
         {messages &&
           messages.map((message) => (
             <Message key={message.id} message={message} />

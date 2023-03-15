@@ -10,7 +10,7 @@ const Navigation: React.FC = () => {
 
   return (
     <div className='sticky top-0 z-10 bg-gray-800 h-20 flex justify-between items-center p-4'>
-      <h1 className='text-white text-xl'>Chat App-Algebra final exam </h1>
+      <h1 className='text-white text-xl'>Chat App-Algebra </h1>
       {user ? <SignOut /> : <SignIn />}
     </div>
   );
